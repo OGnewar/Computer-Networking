@@ -78,4 +78,16 @@ The seven layers along with their brief introduction and uses are as follows:
 
 ## 4. Simulate in packet tracer a ping request from one network to a different network.
 
+<img src="04.PNG">
 
+Sending a ping request from PC0 to PC2 and PC3:
+
+<img src="ping1.PNG">
+
+<img src="ping2.PNG">
+
+Sending a ping request from PC1 to PC2 and PC3:
+
+<img src="ping3.PNG">
+
+<img src="ping4.PNG">
