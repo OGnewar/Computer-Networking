@@ -10,12 +10,12 @@ A computer network is a collection of interconnected computing devices (such as 
 
 Its uses are explained below:
 
-    1.1 Business Application
-        -Resource Sharing: sharing of hardware   (printer, scanner, fax), software and data across network irrespective of geographical location, reducing costs and increasing productivity.
-High Reliability: high accessibility and availability of data since there are multiple copies in multiple devices across the network.
-c.	Saving Money: little to no cost for sharing resources, no need to use mainframe computer, can use cheap desktop computer.
-d.	Scalability: easy to add and integrate new devices into the network for higher computational power.
-    1.2 Home Application
+1.1 Business Application
+-Resource Sharing: sharing of hardware (printer, scanner, fax), software and data across network irrespective of geographical location, reducing costs and increasing productivity.
+-High Reliability: high accessibility and availability of data since there are multiple copies in multiple devices across the network.
+-Saving Money: little to no cost for sharing resources, no need to use mainframe computer, can use cheap desktop computer.
+-Scalability: easy to add and integrate new devices into the network for higher computational power.
+1.2 Home Application
 a.	E-commerce: paying bills, transfer cash, online shopping
 b.	Access to Information: access to information anywhere at all times via the internet at home
 c.	Communication: communicate via text, voice, video calls, etc.
