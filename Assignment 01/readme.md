@@ -38,22 +38,17 @@ The subnet mask of 255.255.255.0 indicates that the last octet is used for host 
 
 The formula to calculate the number of hosts in a subnet is:
 
+<div align="center">
+
 $2^{(\text{No of Host Bits})} - 2$
+
+</div>
 
 Here, there are 8 host bits (since the subnet mask leaves 8 bits for hosts):
 
+<div align="center">
+
 $2^{(\text{8})} - 2 = 254$
 
-2
-8
-−
-2
-=
-256
-−
-2
-=
-254
-2 
-8
- −2=256−2=254
+</div>
+
