@@ -45,7 +45,7 @@ The seven layers along with their brief introduction and uses are as follows:
 
 1. **Physical Layer**:
 
-The Physical Layer is the lowest layer of the OSI model, responsible for the transmission of raw data bits over a physical medium, such as cables or wireless signals. It defines the hardware elements involved, including cables, switches, and the electrical signals used. This layer ensures that when one device sends a bit, it is correctly received by another device.
+    The Physical Layer is the lowest layer of the OSI model, responsible for the transmission of raw data bits over a physical medium, such as cables or wireless signals. It defines the hardware elements involved, including cables, switches, and the electrical signals used. This layer ensures that when one device sends a bit, it is correctly received by another device.
 2. **Datalink Layer**:
     The Data Link Layer is responsible for establishing a reliable link between two directly connected nodes, providing error detection and correction, as well as frame synchronization. It is divided into two sublayers: MAC (Media Access Control) and LLC (Logical Link Control). The MAC sublayer controls how devices on the same network segment access the physical medium, while LLC manages communication between devices and ensures error-free transmission.
 3. **Network Layer**:
