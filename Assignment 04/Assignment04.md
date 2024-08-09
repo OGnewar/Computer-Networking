@@ -20,7 +20,7 @@ Automatic IP address setting:
 
 and so on...
 
-## 2. 32 bits were not enough as IP address for host. Design a system to connect more than $2^32$ host on the network (NAT).
+## 2. 32 bits were not enough as IP address for host. Design a system to connect more than $2^{32}$ host on the network (NAT).
 
 
 ## 3. Simulate DHCP on packet tracer. Have at least two different network.
