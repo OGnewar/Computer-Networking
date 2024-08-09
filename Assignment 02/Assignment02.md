@@ -72,6 +72,6 @@ The seven layers along with their brief introduction and uses are as follows:
 | 1. It is seven-layered reference model. | 1. It is four-layered model. |
 | 2. Internetworking is not supported.  | 2. TCP/IP supports internetworking.  |
 | 3. It clearly distinguishes between services, interfaces and protocols.  | 3. It fails to distinguish between services, interfaces and protocols.  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 4. Network layer provides both connection-oriented and connectionless services.  | 4. Internet layer provides connectionless services.  |
+| 5. Transport layer provides only connection-oriented services.  | 5. Transport layer provides both connection-oriented and connectionless services.  |
+| 6. Protocols are better hidden and can be replaced easily.  | 6. Protocols are not hidden and cannot be replaced easily.  |
