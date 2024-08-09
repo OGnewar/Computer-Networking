@@ -3,6 +3,9 @@
 1. What happens when you type google.com on the browser and press enter? Write a report.
 ```
 ## 1. What happens when you type google.com on the browser and press enter?
+
+<img src="url.PNG">
+
 When you type "google.com" into your browser and press Enter, a complex series of events occurs behind the scenes to load the Google homepage. Here's a step-by-step breakdown of the process:
 1. **URL Parsing**:
 
