@@ -17,4 +17,7 @@
 
 ## 2. What is your network address?
 
+The network address is determined by performing a bitwise AND operation between the IPv4 address and the subnet mask.
+    IPv4 Address: 192.168.1.5
+    Subnet Mask: 255.255.255.0
 
