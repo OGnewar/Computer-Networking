@@ -35,5 +35,5 @@ Its uses are explained below:
 3. **Mobile Application**:
    
     - Same features as home application but with mobile computers like cell phones, laptops, notebook computers and tablets.
-    -High portability and efficiency.
+    - High portability and efficiency.
  
