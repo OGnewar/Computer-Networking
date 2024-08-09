@@ -52,3 +52,7 @@ $2^{(\text{8})} - 2 = 254$
 
 </div>
 
+Hence, the number of nodes supported is:
+
+    254
+
