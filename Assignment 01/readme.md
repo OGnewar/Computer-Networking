@@ -42,7 +42,7 @@ $2^{(\text{No of Host Bits})} - 2$
 
 Here, there are 8 host bits (since the subnet mask leaves 8 bits for hosts):
 
-$2^{(\text{8})} - 2$
+$2^{(\text{8})} - 2 = 254$
 
 2
 8
