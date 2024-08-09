@@ -21,12 +21,19 @@ Its uses are explained below:
     - Scalability: easy to add and integrate new devices into the network for higher computational power.
 
 2. **Home Application**:
-a.	E-commerce: paying bills, transfer cash, online shopping
-b.	Access to Information: access to information anywhere at all times via the internet at home
-c.	Communication: communicate via text, voice, video calls, etc.
-d.	Entertainment: multiplayer games, videos, movies, music, social media, etc.
-e.	Online Education: online classrooms, notebooks, youtube, websites, etc.
-C.	Mobile Application
-	Same features as home application but with mobile computers like cell phones, laptops, notebook computers and tablets.
-	High portability and efficiency.
+
+    - E-commerce: paying bills, transfer cash, online shopping
+      
+    - Access to Information: access to information anywhere at all times via the internet at home
+      
+    - Communication: communicate via text, voice, video calls, etc.
+      
+    - Entertainment: multiplayer games, videos, movies, music, social media, etc.
+      
+    - Online Education: online classrooms, notebooks, youtube, websites, etc.
+      
+3. **Mobile Application**:
+   
+    - Same features as home application but with mobile computers like cell phones, laptops, notebook computers and tablets.
+    -High portability and efficiency.
  
