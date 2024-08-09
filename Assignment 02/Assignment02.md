@@ -69,5 +69,5 @@ The seven layers along with their brief introduction and uses are as follows:
 
 | OSI Model | TCP/IP Model |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| 1. It is seven-layered reference model. | 1. It is four-layered model. |
 | Content Cell  | Content Cell  |
