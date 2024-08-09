@@ -37,3 +37,14 @@ Its uses are explained below:
     - Same features as home application but with mobile computers like cell phones, laptops, notebook computers and tablets.
     - High portability and efficiency.
  
+## 2. What are different layers of OSI Model. Write their uses.
+
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a telecommunication or computing system without regard to its underlying internal structure and technology. It divides the process of communication into seven distinct layers.
+
+The seven layers along with their brief introduction and uses are as follows:
+
+1. **Physical Layer**:
+   The Physical Layer is the lowest layer of the OSI model, responsible for the transmission of raw data bits over a physical medium, such as cables or wireless signals. It defines the hardware elements involved, including cables, switches, and the electrical signals used. This layer ensures that when one device sends a bit, it is correctly received by another device.
+   
+2. 
+
