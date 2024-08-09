@@ -70,4 +70,8 @@ The seven layers along with their brief introduction and uses are as follows:
 | OSI Model | TCP/IP Model |
 | ------------- | ------------- |
 | 1. It is seven-layered reference model. | 1. It is four-layered model. |
+| 2. Internetworking is not supported.  | 2. TCP/IP supports internetworking.  |
+| 3. It clearly distinguishes between services, interfaces and protocols.  | 3. It fails to distinguish between services, interfaces and protocols.  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
