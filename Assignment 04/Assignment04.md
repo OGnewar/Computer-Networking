@@ -45,3 +45,24 @@ Web Browser:
 <img src="02pc2.PNG">
 
 ## 3. Simulate DHCP on packet tracer. Have at least two different network.
+
+<img src="03.PNG">
+
+Server Settings:
+
+<img src="03ser1.PNG">
+
+DHCP Settings:
+
+<img src="03dhcp.PNG">
+
+CLI Settings:
+
+<img src="03cli.PNG">
+
+PC IP address setting:
+
+<img src="03pc0.PNG">
+<img src="03pc1.PNG">
+<img src="03pc3.PNG">
+<img src="03pc4.PNG">
