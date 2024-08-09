@@ -10,6 +10,8 @@ When you type "google.com" into your browser and press Enter, a complex series o
 
 2. **DNS Lookup**:
 
+    <img src="dns.png">
+
     The browser needs to find the IP address associated with "google.com." It sends a DNS query to resolve the domain name into an IP address.
 
     Steps Involved:
