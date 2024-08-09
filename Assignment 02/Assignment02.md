@@ -65,5 +65,9 @@ The seven layers along with their brief introduction and uses are as follows:
 
     The Application Layer is the topmost layer, providing network services directly to end-users and applications. It handles high-level protocols, including HTTP, FTP, SMTP, and DNS, allowing applications to interact with the network. This layer serves as the interface between the user and the network, enabling activities like web browsing, email, and file transfers.
 
+## 3. Differentiate between OSI Model and TCP/IP Model.
 
-
+| OSI Model | TCP/IP Model |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
