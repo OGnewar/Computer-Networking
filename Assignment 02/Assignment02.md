@@ -47,8 +47,23 @@ The seven layers along with their brief introduction and uses are as follows:
 
     The Physical Layer is the lowest layer of the OSI model, responsible for the transmission of raw data bits over a physical medium, such as cables or wireless signals. It defines the hardware elements involved, including cables, switches, and the electrical signals used. This layer ensures that when one device sends a bit, it is correctly received by another device.
 2. **Datalink Layer**:
+
     The Data Link Layer is responsible for establishing a reliable link between two directly connected nodes, providing error detection and correction, as well as frame synchronization. It is divided into two sublayers: MAC (Media Access Control) and LLC (Logical Link Control). The MAC sublayer controls how devices on the same network segment access the physical medium, while LLC manages communication between devices and ensures error-free transmission.
 3. **Network Layer**:
+
+    The Network Layer is responsible for determining the best path for data to travel from the source to the destination across multiple networks (routing). It handles logical addressing (such as IP addresses) and manages traffic problems like packet switching, congestion control, and packet forwarding. This layer ensures that data reaches its correct destination.
+4. **Transport Layer**:
+
+    The Transport Layer ensures reliable data transfer between devices, providing services such as flow control, error correction, and data segmentation. It manages end-to-end communication, ensuring that data is delivered error-free, in sequence, and without losses or duplicates. Protocols like TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) operate at this layer.
+5. **Session Layer**:
+
+    The Session Layer is responsible for establishing, managing, and terminating connections (sessions) between applications. It manages sessions in a way that they are synchronized and organized, even in cases of prolonged data transfer. This layer ensures that connections between different applications are maintained and properly coordinated.
+6. **Presentation Layer**:
+
+    The Presentation Layer translates data between the application layer and the network, ensuring that data sent by the application layer of one system can be read by the application layer of another. It handles data encryption, compression, and formatting, ensuring data is in a usable format. This layer is responsible for data representation, making sure that the data is readable regardless of system differences.
+7. **Application Layer**:
+
+    The Application Layer is the topmost layer, providing network services directly to end-users and applications. It handles high-level protocols, including HTTP, FTP, SMTP, and DNS, allowing applications to interact with the network. This layer serves as the interface between the user and the network, enabling activities like web browsing, email, and file transfers.
 
 
 
