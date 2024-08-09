@@ -75,3 +75,7 @@ The seven layers along with their brief introduction and uses are as follows:
 | 4. Network layer provides both connection-oriented and connectionless services.  | 4. Internet layer provides connectionless services.  |
 | 5. Transport layer provides only connection-oriented services.  | 5. Transport layer provides both connection-oriented and connectionless services.  |
 | 6. Protocols are better hidden and can be replaced easily.  | 6. Protocols are not hidden and cannot be replaced easily.  |
+
+## 4. Simulate in packet tracer a ping request from one network to a different network.
+
+
