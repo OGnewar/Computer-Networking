@@ -98,3 +98,30 @@ Here's a brief explanation on the several fields in a IPv6 Header:
 8. **Destination Address (128 bits)**: This field contains the IPv6 address of the device intended to receive the packet.
 
 ## 4. In the preferred language of your choice, write a web application that allows you to upload a file of minimum 10 MB size. Capture the upload in Wireshark. In your Wireshark capture, follow the TCP stream to inspect connection initiation, file transfer and connection termination.
+
+The code of file upload is present in the `file-upload-code` directory.
+
+1. Run the python app as: `python app.py`.
+2. Begin capturing packets on the selected interface.
+3. Use the Flask web application you just created to upload a file larger than 10 MB.
+4. Once the file upload is complete, stop the packet capture in Wireshark.
+5. Use the Wireshark display filter to focus on HTTP traffic: `http`.
+6. Right-click on one of the HTTP packets associated with your upload, and select "Follow" > "TCP Stream". This will open a new window showing the entire conversation between your client and the server.
+7. In the TCP stream, you'll be able to see:
+
+    - **Connection Initiation**: The initial SYN, SYN-ACK, and ACK packets (the TCP three-way handshake).
+
+    - **File Transfer**: The data packets as the file is uploaded.
+
+    - **Connection Termination**: The FIN, ACK, and FIN-ACK packets.
+
+Packet Capture:
+<img src="04packet.PNG">
+
+TCP Stream:
+<img src="04tcp.PNG>
+
+File Segments:
+<img src="04segments.PNG">
+
+This process will allow you to observe the detailed behavior of your web application during a file upload, including the low-level TCP interactions.
