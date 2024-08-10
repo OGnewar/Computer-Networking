@@ -63,7 +63,18 @@ A brief breakdown of our code is as follows:
 
 10. Execution Entry Point:
 
-    `if __name__ == "__main__": main()`: Ensures that the main() function is executed when the script is run directly.
+    - `if __name__ == "__main__": main()`: Ensures that the main() function is executed when the script is run directly.
 
+# Capturing Packets 
 
+1. Start Capturing Packets in Wireshark.
+2. Run this command in your terminal to download the torrent file:
+    ```
+    python main.py download -o outputfile.torrent sample.torrent
+    ```
+3. Stop Capturing Packets.
+4. Filter the handshake message using the argument: `tcp contains "BitTorrent protocol"`
+5. Save and Exit.
+
+<img src="01bitpackets.PNG">
 
