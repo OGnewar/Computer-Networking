@@ -66,3 +66,35 @@ Here's a brief explanation for each of the fields in IP Header:
 10. **Header Checksum (16 bits)**: This field is used for error-checking the IP header. It’s calculated by summing the contents of the IP header, dividing into 16-bit words, and then taking the one's complement of the sum.
 11. **Source IP Address (32 bits)**: This field contains the IP address of the source host.
 12. **Destination IP Address (32 bits)**: This field contains the IP address of the destination host.
+
+## 3. Filter a Wireshark capture on IPV6 and explain why its field has the value it does.
+
+1. Start capturing, then stop once you've gathered enough packets.
+2. Generate IPv6 traffic by visiting a website that supports IPv6 or by pinging an IPv6 address. You can use the following command:
+    ```
+    ping -6 ipv6.google.com
+    ```
+3. Start capturing, then stop once you've gathered enough packets.
+4. Filter out the IPv6 packets with `icmpv6` in the filter.
+
+Packet Capture:
+<img src="03packet.PNG">
+
+Hexadecimal Data:
+<img src="03hexa.PNG">
+
+IP Header:
+<img src="03header.PNG">
+
+Here's a brief explanation on the several fields in a IPv6 Header:
+
+1. **Version (4 bits)**: This field indicates the version of the IP protocol, and in the case of IPv6, the value is always 6.
+2. **Traffic Class (8 bits)**: This field is used for QoS (Quality of Service). It’s similar to the Type of Service (ToS) field in IPv4. It can be set by the sender to specify a priority for the packet.
+3. **Flow Label (20 bits)**: The flow label is used by a source to label sequences of packets that require special handling by the IPv6 routers, such as non-default quality of service or "real-time" service.
+4. **Payload Length (16 bits)**: This field specifies the length of the IPv6 payload, i.e., the size of the data following the header. This includes the size of any extension headers.
+5. **Next Header (8 bits)**: This field identifies the type of header immediately following the IPv6 header. It’s similar to the Protocol field in IPv4. Common values include: `6` for TCP, `17` for UDP and `58` for ICMPv6.
+6. **Hop Limit (8 bits)**: This field specifies the maximum number of hops (routers) that the packet can pass through before being discarded. Each router decreases the hop limit by one. It’s analogous to the Time to Live (TTL) field in IPv4.
+7. **Source Address (128 bits)**: This field contains the IPv6 address of the device sending the packet.
+8. **Destination Address (128 bits)**: This field contains the IPv6 address of the device intended to receive the packet.
+
+## 4. In the preferred language of your choice, write a web application that allows you to upload a file of minimum 10 MB size. Capture the upload in Wireshark. In your Wireshark capture, follow the TCP stream to inspect connection initiation, file transfer and connection termination.
