@@ -17,7 +17,7 @@ Automatic IP address setting:
 
 <img src="01ip2.PNG">
 
-and so on...
+and so on..
 
 
 # 2. Simulate DHCP on packet tracer. Have at least two different network.
