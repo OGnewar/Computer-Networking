@@ -272,7 +272,7 @@ def download(outputfile, filename):
     total_pieces = len(piece_hashes(decoded_value["info"]["pieces"]))
     piecefiles = []
     for piece in range(0, total_pieces):
-        p, o = download_piece("/tmp/test-" + str(piece), filename, piece)
+        p, o = download_piece("/temp/test-" + str(piece), filename, piece)
         piecefiles.append(o)
     with open(outputfile, "ab") as result_file:
         for piecefile in piecefiles:
