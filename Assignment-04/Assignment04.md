@@ -1,10 +1,9 @@
 ## Tasks:
 ```
 1. Design a system for assigning IP address automatically to host on a network.
-2. Simulate a DNS Server and Web Server in packet server.
-3. Simulate DHCP on packet tracer. Have at least two different network.
+2. Simulate DHCP on packet tracer. Have at least two different network.
 ```
-## 1. Design a system for assigning IP address automatically to host on a network.
+# 1. Design a system for assigning IP address automatically to host on a network.
 
 <img src="01.PNG">
 
@@ -20,31 +19,8 @@ Automatic IP address setting:
 
 and so on...
 
-## 2. Simulate a DNS Server and Web Server in packet server.
 
-<img src="02.PNG">
-
-Web Server Settings:
-
-<img src="02web.PNG">
-
-<img src="02web2.PNG">
-
-DNS Server Settings:
-
-<img src="02dns.PNG">
-
-<img src="02dns2.PNG">
-
-PC settings:
-
-<img src="02pc.PNG">
-
-Web Browser:
-
-<img src="02pc2.PNG">
-
-## 3. Simulate DHCP on packet tracer. Have at least two different network.
+# 3. Simulate DHCP on packet tracer. Have at least two different network.
 
 <img src="03.PNG">
 
