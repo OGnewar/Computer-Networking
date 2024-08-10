@@ -20,7 +20,7 @@ Automatic IP address setting:
 and so on...
 
 
-# 3. Simulate DHCP on packet tracer. Have at least two different network.
+# 2. Simulate DHCP on packet tracer. Have at least two different network.
 
 <img src="03.PNG">
 
