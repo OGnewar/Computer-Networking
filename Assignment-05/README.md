@@ -18,7 +18,7 @@
     ipconfig /renew
     ```
 4. Now stop capturing packets in Wireshark.
-5. Filter out the DHCP packets.
+5. Filter out the DHCP packets
 
 <img src="01release.PNG">
 
