@@ -34,7 +34,7 @@ Here's a brief explaination of each of the DHCP packets discovered:
 4. **DHCP Request**: The client responds to the server's offer by requesting the offered IP address. The broadcast ensures that all servers know which offer was accepted.
 5. **DHCP Acknowledgement**: The DHCP server confirms that the client can use the requested IP address, completing the DHCP lease process.
 
-## 2. On Wireshark, capture an IP packet. Write the value of each field on the header and explain how those values are calculated.
+# 2. On Wireshark, capture an IP packet. Write the value of each field on the header and explain how those values are calculated.
 
 1. Start capturing packets with Wireshark.
 2. To focus on IP packets, you can set a filter like ip in the filter bar.
@@ -67,7 +67,7 @@ Here's a brief explanation for each of the fields in IP Header:
 11. **Source IP Address (32 bits)**: This field contains the IP address of the source host.
 12. **Destination IP Address (32 bits)**: This field contains the IP address of the destination host.
 
-## 3. Filter a Wireshark capture on IPV6 and explain why its field has the value it does.
+# 3. Filter a Wireshark capture on IPV6 and explain why its field has the value it does.
 
 1. Start capturing, then stop once you've gathered enough packets.
 2. Generate IPv6 traffic by visiting a website that supports IPv6 or by pinging an IPv6 address. You can use the following command:
@@ -97,7 +97,7 @@ Here's a brief explanation on the several fields in a IPv6 Header:
 7. **Source Address (128 bits)**: This field contains the IPv6 address of the device sending the packet.
 8. **Destination Address (128 bits)**: This field contains the IPv6 address of the device intended to receive the packet.
 
-## 4. In the preferred language of your choice, write a web application that allows you to upload a file of minimum 10 MB size. Capture the upload in Wireshark. In your Wireshark capture, follow the TCP stream to inspect connection initiation, file transfer and connection termination.
+# 4. In the preferred language of your choice, write a web application that allows you to upload a file of minimum 10 MB size. Capture the upload in Wireshark. In your Wireshark capture, follow the TCP stream to inspect connection initiation, file transfer and connection termination.
 
 The code of file upload is present in the `file-upload-code` directory.
 
