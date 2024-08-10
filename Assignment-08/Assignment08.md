@@ -81,3 +81,11 @@ print(networkDelayTime(times, n, k))  # Output: 2
 - Finally, we check the maximum distance from the starting node `k` to all other nodes.
 
 This solution efficiently computes the minimum time required for the signal to reach all nodes or determines that it is not possible.
+
+# 2. Do the same as above, but for Bellman Ford algorithm.
+
+## Cheapest Flights Within K Stops
+
+There are `n` cities connected by some number of `flights`. You are given an array flights where $flights[i] = [from{<sub>i</sub>}, to{<sub>i</sub>}, price{<sub>i</sub>}]$ indicates that there is a flight from city `fromi` to city `toi` with cost `pricei`.
+
+You are also given three integers src, dst, and k, return the cheapest price from src to dst with at most k stops. If there is no such route, return -1.
