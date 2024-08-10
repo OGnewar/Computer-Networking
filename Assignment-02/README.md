@@ -6,7 +6,7 @@
   
 ## 1. What is Computer Network? Write its uses.
 
-A computer network is a collection of interconnected computing devices (such as computers, servers, routers, and switches) that communicate with each other to share resources, data, and information. These devices are linked by various communication protocols over wired or wireless media.
+A computer network is a collection of interconnected computing devices (such as computers, servers, routers, and switches) that communicate with each other to share resources, data, and information. These devices are linked by various communication protocols over wire or wireless media.
 
 Its uses are explained below:
 
