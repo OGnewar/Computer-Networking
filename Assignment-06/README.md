@@ -79,11 +79,11 @@ The different TCP Header Fields with their brief explanation are as follows:
 
 # 3. Verify in Wireshark.
 
-## 1. Wireshark for UDP
+## 1. Wireshark for UDP:
 
 <img src="03udp.PNG">
 
-## 2. Wireshark for TCP
+## 2. Wireshark for TCP:
 
 <img src="03tcp1.PNG">
 <img src="03tcp2.PNG">
