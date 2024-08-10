@@ -76,5 +76,11 @@ A brief breakdown of our code is as follows:
 4. Filter the handshake message using the argument: `tcp contains "BitTorrent protocol"`
 5. Save and Exit.
 
+Downloaded Torrent file:
+
+<img src="01torrent.PNG">
+
+Packets Captured:
+
 <img src="01bitpackets.PNG">
 
