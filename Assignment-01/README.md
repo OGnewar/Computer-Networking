@@ -5,7 +5,7 @@
     4. Given the subnet mask and network address, how many nodes can your network support?
     5. Simulate the network in a packet tracer.
 
-## 1. Capture your network configuration using the "ipconfig" command in your command prompt.
+## 1. Capture your network configuration using the "ipconfig" command in your command promp.
 
 <img src="01.PNG">
 
