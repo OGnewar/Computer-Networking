@@ -23,7 +23,7 @@ The network address is determined by performing a bitwise AND operation between 
     IPv4 Address: 192.168.1.5
     Subnet Mask: 255.255.255.0
 
-Since the subnet mask is 255.255.255.0, this means that the first three octets (192.168.1) represent the network address, and the last octet (5) is the host identifier.
+Since the subnet mask is 255.255.255.0, this means that the first three octets (192.168.1) represent the network address, and the last octet  is the host identifier.
 
     Network Address: 192.168.1.0
 
