@@ -22,7 +22,7 @@ When you type "google.com" into your browser and press Enter, a complex series o
     - Checks if the IP address is cached from a previous visit.
     - If not found in the browser, it checks the OS-level DNS cache.
     - If still unresolved, the request moves to the router's cache.
-    - If the router doesn't have the address, it queries the ISP's DNS server.
+    - If the router doesn't have the address, it queries the ISP DNS server.
     - If the ISP's server doesn't have the address, it begins a recursive search through the root DNS servers, TLD (Top-Level Domain) servers (.com), and authoritative DNS servers until it finds the IP address for "google.com."
 
 4. **TCP/IP Connection**:
