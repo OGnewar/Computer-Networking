@@ -59,7 +59,7 @@ A brief breakdown of our code is as follows:
 
 9. Command-Line Interface (CLI):
 
-    - `main()`: The main function that interprets command-line arguments to execute specific commands (decode, info, peers, handshake, download_piece, download), making the script usable as a command-line tool.
+    - `main()`: The main function that interpret command-line arguments to execute specific commands (decode, info, peers, handshake, download_piece, download), making the script usable as a command-line tool.
 
 10. Execution Entry Point:
 
